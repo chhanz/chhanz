@@ -1,0 +1,20 @@
+FROM node:lts-alpine
+
+# Set working directory
+WORKDIR /app
+COPY entrypoint.sh /entrypoint.sh
+
+# Install required packages and clone the github-readme-stats repository
+RUN apk add --no-cache git \
+&& git clone https://github.com/anuraghazra/github-readme-stats.git . \
+&& npm install express@latest \
+&& npm audit fix \
+&& chmod +x /entrypoint.sh \
+&& npm cache clean -f
+
+# Expose port
+EXPOSE 9000
+
+# Start the application
+ENTRYPOINT ["/entrypoint.sh"]
+CMD ["node", "express.js"]
