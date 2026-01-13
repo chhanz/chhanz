@@ -2,4 +2,4 @@
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://linkedin.com/in/chhanz/)](https://linkedin.com/in/chhanz/) 
 
 ### Github stats
-[![Cheolhee Han GitHub stats](https://github-readme-stats.vercel.app/api?username=chhanz&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
+[![Cheolhee Han GitHub stats](https://chhanz.xyz/stat/api?username=chhanz&show_icons=true)](https://chhanz.xyz)
